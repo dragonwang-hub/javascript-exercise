@@ -6,10 +6,6 @@ export default class Person {
   }
 
   introduce() {
-    return this.basicIntroduce();
-  }
-
-  basicIntroduce() {
     const basicintroduce = `My name is ${this.name}. I am ${this.age} years old.`;
     return basicintroduce;
   }

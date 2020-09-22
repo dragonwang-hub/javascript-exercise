@@ -6,6 +6,5 @@ async function fetchData(url) {
   document.writeln(data.name);
   // end -->
 }
-
 const URL = 'http://localhost:3000/api';
 fetchData(URL);
